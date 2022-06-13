@@ -51,4 +51,8 @@ namespace discpp
     };
 }
 
+#define DISCORD_USER_AGENT "DiscordBot (Discpp, " DISCPP_VERSION ")"
+
+#define DISCORD_CDN_EP "https://cdn.discordapp.com/"
+
 #endif // __DISCPP_DEFINITIONS_H__

@@ -4,6 +4,7 @@ project(discpp VERSION 0.1.0)
 file(GLOB_RECURSE DISCPP_SOURCES CONFIGURE_DEPENDS src/*.cpp)
 add_library(discpp ${DISCPP_SOURCES})
 target_include_directories(discpp PUBLIC include/)
+target_compile_definitions(discpp PUBLIC DISCPP_VERSION="${PROJECT_VERSION}")
 
 ############################
 # Add third-party libraries
