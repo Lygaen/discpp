@@ -3,5 +3,6 @@
 
 #include <spdlog/spdlog.h>
 #include <discpp/definitions.h>
+#include <discpp/client.h>
 
 #endif // __DISCPP_H__
